@@ -1,0 +1,95 @@
+* {
+margin: 0%;
+padding: 0%;
+}
+
+
+body {
+background-color: antiquewhite;
+font-family: "Markazi Text", serif;
+font-size: 20px;
+margin-top: 3rem;
+margin-bottom: 3rem;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+h1 {
+font-size: 3rem;
+text-align: center;
+}
+
+h2 {
+font-size: 2rem;    
+}
+
+header > img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+nav ul {
+list-style: none;
+text-align: center;
+}
+
+nav li {
+column-gap: 40px;
+display: inline-block;
+}
+
+.list {
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+
+section {
+display: flex;
+}
+
+article {
+flex: 1;
+}
+
+footer {
+display: flex;
+}
+
+footer div {
+flex: 1;
+}
+
+.main-text{
+ display: inline-flex;
+ justify-content: center;
+ gap: 30px;
+}
+
+.product-items {
+display: grid;
+justify-content: center;
+padding-top: 5%;
+}
+
+.form {
+display: flex;
+margin-left: 50%;
+margin-right: 50%;
+gap: 20px;
+}
+
+.message {
+margin-left: 50%;
+margin-right: 50%;
+}
+
+.submit-button{
+margin-left: 50%;
+}
+
+.contact {
+ margin-left: -20%;
+}
+
